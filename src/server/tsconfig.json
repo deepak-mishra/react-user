@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "../../dist/",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "downlevelIteration": false,
+    "noImplicitAny": true,
+    "noImplicitThis": false,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": false,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "strict": false,
+    "sourceMap": false,
+    "types": ["node"]
+  },
+  "exclude": ["./**/*.spec.ts", "__test__", "src/jest.setup.ts"],
+  "include": ["./**/*.ts"]
+}

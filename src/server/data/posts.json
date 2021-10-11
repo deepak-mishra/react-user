@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "firstName": "Rhea",
+    "lastName": "McLaughlin",
+    "telephone": 8000000000,
+    "email": "sunt@bla.de"
+  },
+  {
+    "id": "2",
+    "firstName": "Hermann",
+    "lastName": "Daniel",
+    "telephone": 812381238123,
+    "email": "hd@bla.de"
+  },
+  {
+    "id": "3",
+    "firstName": "sunt aut",
+    "lastName": "aut",
+    "telephone": 2123123123,
+    "email": "sunt@bla.de"
+  }
+]
