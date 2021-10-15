@@ -4,7 +4,7 @@ import UserService from '../../services/UserService';
 import { RouteComponentProps } from 'react-router';
 import {useDispatch} from "react-redux";
 import {AppDispatch} from "../../store";
-import {createUserAction, deleteUserAction, updateUserAction} from "../../actions/userActions";
+import {deleteUserAction, updateUserAction} from "../../actions/userActions";
 
 interface RouterProps {
     id: string;
@@ -100,7 +100,7 @@ const EditUser: React.FC<Props> = (props: Props): ReactElement => {
                                 required
                                 value={currentUser.telephone}
                                 onChange={handleInputChange}
-                                name="age"
+                                name="telephone"
                             />
                         </div>
 
